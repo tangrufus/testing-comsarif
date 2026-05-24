@@ -1,0 +1,24 @@
+{
+  "name": "tangrufus/testing-comsarif",
+  "type": "project",
+  "repositories": [
+    {
+      "name": "wp-packages",
+      "type": "composer",
+      "url": "https://repo.wp-packages.org",
+      "only": [
+        "wp-plugin/*",
+        "wp-theme/*"
+      ]
+    },
+    {
+      "name": "wpsecadv",
+      "type": "composer",
+      "url": "https://repo-wpsecadv.typist.tech"
+    }
+  ],
+  "require": {
+    "php": ">=8.5",
+    "psr/log": "^3.0"
+  }
+}
