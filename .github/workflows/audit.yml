@@ -32,7 +32,9 @@ jobs:
           php-version: '8.5'
           coverage: none
 
-      - run: composer audit --locked --format json > audit.json
+      - run: composer install --no-security-blocking
+
+      - run: composer audit --format json > audit.json
         continue-on-error: true
 
       - uses: typisttech/composer-audit-to-sarif-action@main

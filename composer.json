@@ -3,6 +3,17 @@
   "type": "project",
   "repositories": [
     {
+      "type": "package",
+      "package": {
+        "name": "wp-org/better-delete-revision",
+        "version": "1.0",
+        "dist": {
+          "type": "zip",
+          "url": "https://downloads.wordpress.org/plugin/better-delete-revision.1.0.zip"
+        }
+      }
+    },
+    {
       "name": "wp-packages",
       "type": "composer",
       "url": "https://repo.wp-packages.org",
@@ -23,6 +34,9 @@
     "psr/log": "^1.1",
     "roots/wordpress": "6.9.4",
     "symfony/process": "8.0.0",
+    "typisttech/wp-org-closed-plugin": "^0.3.0",
+    "wp-org/better-delete-revision": "^1.0",
+    "wp-org/post-modified-date": "^1.1",
     "wp-theme/twentyfifteen": "1.0"
   },
   "require-dev": {
@@ -35,7 +49,8 @@
     "allow-plugins": {
       "composer/installers": true,
       "roots/wordpress-core-installer": true,
-      "pestphp/pest-plugin": true
+      "pestphp/pest-plugin": true,
+      "typisttech/wp-org-closed-plugin": true
     },
     "sort-packages": true,
         "audit": {

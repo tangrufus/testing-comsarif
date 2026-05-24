@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f989db6afdc40808046ea05684009c95",
+    "content-hash": "0a63b3ee70412f18a60128fd36fb4ead",
     "packages": [
         {
             "name": "composer/installers",
@@ -533,6 +533,104 @@
                 }
             ],
             "time": "2025-10-16T16:25:44+00:00"
+        },
+        {
+            "name": "typisttech/wp-org-closed-plugin",
+            "version": "v0.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/typisttech/wp-org-closed-plugin.git",
+                "reference": "eedd529b0bc1b6c254621293681ae3887fe9151a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/typisttech/wp-org-closed-plugin/zipball/eedd529b0bc1b6c254621293681ae3887fe9151a",
+                "reference": "eedd529b0bc1b6c254621293681ae3887fe9151a",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^2.6",
+                "php": "^8.3"
+            },
+            "require-dev": {
+                "composer/composer": "^2.9",
+                "mockery/mockery": "^1.6",
+                "pestphp/pest": "^4.1",
+                "phpstan/extension-installer": "^1.4",
+                "phpstan/phpstan": "^2.1",
+                "phpstan/phpstan-deprecation-rules": "^2.0",
+                "phpstan/phpstan-mockery": "^2.0",
+                "phpstan/phpstan-strict-rules": "^2.0"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "TypistTech\\WpOrgClosedPlugin\\Plugin",
+                "plugin-optional": true,
+                "plugin-modifies-downloads": true
+            },
+            "autoload": {
+                "psr-4": {
+                    "TypistTech\\WpOrgClosedPlugin\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Typist Tech",
+                    "homepage": "https://typist.tech"
+                },
+                {
+                    "name": "Tang Rufus",
+                    "email": "tangrufus@gmail.com",
+                    "homepage": "https://tangrufus.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Composer plugin to mark packages as abandoned if closed on WordPress.org",
+            "homepage": "https://github.com/typisttech/wp-org-closed-plugin",
+            "keywords": [
+                "Audit",
+                "abandoned",
+                "security",
+                "wordpress"
+            ],
+            "support": {
+                "issues": "https://github.com/typisttech/wp-org-closed-plugin/issues",
+                "security": "https://github.com/typisttech/wp-org-closed-plugin/security",
+                "source": "https://github.com/typisttech/wp-org-closed-plugin"
+            },
+            "funding": [
+                {
+                    "url": "https://typist.tech/donation/",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/tangrufus",
+                    "type": "github"
+                }
+            ],
+            "time": "2025-11-14T22:12:52+00:00"
+        },
+        {
+            "name": "wp-org/better-delete-revision",
+            "version": "1.0",
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/better-delete-revision.1.0.zip"
+            },
+            "type": "library"
+        },
+        {
+            "name": "wp-org/post-modified-date",
+            "version": "1.1.1",
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/post-modified-date.1.1.1.zip"
+            },
+            "type": "library"
         },
         {
             "name": "wp-theme/twentyfifteen",
