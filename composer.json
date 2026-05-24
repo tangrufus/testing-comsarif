@@ -22,7 +22,7 @@
     "monolog/monolog": "~1.11.0",
     "psr/log": "^1.1",
     "roots/wordpress": "6.9.4",
-    "symfony/yaml": "8.0.11",
+    "symfony/process": "8.0.0",
     "wp-theme/twentyfifteen": "1.0"
   },
   "require-dev": {
