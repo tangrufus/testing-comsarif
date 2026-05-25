@@ -32,7 +32,7 @@ jobs:
           php-version: '8.5'
           coverage: none
 
-      - run: composer install --no-security-blocking
+      - run: composer install
 
       - run: composer audit --format json > audit.json
         continue-on-error: true
