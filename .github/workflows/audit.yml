@@ -41,7 +41,7 @@ jobs:
         with:
           go-version: '~1.26'
 
-      - run: go install https://github.com/typisttech/comsarif/cmd/comsarif@hash
+      - run: go install github.com/typisttech/comsarif/cmd/comsarif@hash
 
       - id: comsarif
         run: comsarif --audit audit.json --lock composer.lock > sarif.json
